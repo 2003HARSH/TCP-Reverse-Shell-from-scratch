@@ -26,7 +26,7 @@ The server listens for incoming connections from clients and provides an interac
 1. Ensure you have Python installed on your system.
 2. Install the required dependencies:
    ```bash
-   pip install pycryptodomex
+   pip install -r requirements.txt
    ```
 3. Run the server script:
    ```bash
@@ -42,11 +42,11 @@ The client connects to the server and waits for commands to execute.
 1. Ensure you have Python installed on the victim's system.
 2. Install the required dependencies:
    ```bash
-   pip install pycryptodomex
+   pip install -r requirements.txt
    ```
 3. Run the client script on the victim machine:
    ```bash
-   python victim.py
+   python client.py
    ```
 
 ### Commands
